@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@variant dark (&:is(.dark *));
+
+:root {
+  --accent: #7c3aed;
+}
+
+html {
+  background-color: #0f0f0f;
+  color: #f3f4f6;
+}
+
+html:not(.dark) {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.toggle-track {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.toggle-pill {
+  position: relative;
+  width: 64px;
+  height: 32px;
+  background-color: #4B5563;
+  border-radius: 999px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+}
+
+.toggle-checkbox:checked + .toggle-pill {
+  background-color: #7C3AED;
+}
+
+.toggle-pill::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  z-index: 1;
+}
+
+.toggle-checkbox:checked + .toggle-pill::after {
+  transform: translateX(32px);
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-pill img {
+  width: 14px;
+  height: 14px;
+  z-index: 0;
+}
+
+.dark .footer-icon {
+  filter: invert(1);
+}
+
+.footer-icon {
+  filter: invert(0);
+}
