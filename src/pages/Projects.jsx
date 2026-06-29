@@ -25,7 +25,7 @@ function Projects() {
                             <img 
                             src={placeholderImg}
                             alt=""
-                            className="rounded-lg border border-violet-600/40 w-72 h-80 object-cover"
+                            className="rounded-lg border border-violet-600/40 w-full h-80 object-cover"
                         />
                         </div>
                         <ul className="flex gap-2 flex-wrap list-none mt-4 p-0">
@@ -77,7 +77,7 @@ function Projects() {
                             <img 
                             src={placeholderImg}
                             alt=""
-                            className="rounded-lg border border-violet-600/40 w-72 h-80 object-cover"
+                            className="rounded-lg border border-violet-600/40 w-full h-80 object-cover"
                         />
                         </div>
                         <ul className="flex gap-2 flex-wrap list-none mt-4 p-0">
@@ -125,7 +125,7 @@ function Projects() {
                             <img 
                             src={placeholderImg}
                             alt=""
-                            className="rounded-lg border border-violet-600/40 w-72 h-80 object-cover"
+                            className="rounded-lg border border-violet-600/40 w-full h-80 object-cover"
                         />
                         </div>
                         <ul className="flex gap-2 flex-wrap list-none mt-4 p-0">
@@ -174,7 +174,7 @@ function Projects() {
                             <img 
                             src={placeholderImg}
                             alt=""
-                            className="rounded-lg border border-violet-600/40 w-72 h-80 object-cover"
+                            className="rounded-lg border border-violet-600/40 w-full h-80 object-cover"
                         />
                         </div>
                         

@@ -3,7 +3,7 @@ import heroImg from '../assets/hero.png'
 
 function Home() {
     return ( 
-        <section className="px-8 py-16 max-w-6xl mx-auto">
+        <section className="px-4 md:px-8 py-8 md:py-16 max-w-6xl mx-auto">
             <section className="grid md:grid-cols-2 gap-12">
                 <div>
                     <div className="flex items-center gap-2 mb-4">
@@ -14,7 +14,7 @@ function Home() {
                     <p className="inline-block text-sm border border-violet-600 text-violet-400 px-3 py-1 rounded-full mb-4">
                         CS Student · University of Cincinnati
                     </p>
-                    <h1 className="text-5xl font-medium mb-3">Hi, I'm
+                    <h1 className="text-3xl md:text-5xl font-medium mb-3">Hi, I'm
                         <span className="text-violet-500"> Jaxon Polo</span>
                     </h1>
                     <h2 className="text-xl text-gray-600 dark:text-gray-400 mb-5 font-normal">.NET Developer & Aspiring Game Dev</h2>
@@ -68,7 +68,7 @@ function Home() {
                 </div>
             </section>
 
-            <div className="grid grid-cols-3 border-t border-gray-200 dark:border-white/10 mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-200 dark:border-white/10 mt-16">
                 <div className="text-center py-8 border-r border-gray-200 dark:border-white/10 last:border-r-0">
                     <h2 className="text-4xl font-medium text-violet-500">4</h2>
                     <p className="text-sm text-gray-500 mt-1">Portfolio projects</p>
